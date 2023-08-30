@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://smc.org.in/fonts/meera.css'); body { font-family: 'Meera', sans-serif; }
 
 * {
   margin: 0;
@@ -10,7 +11,7 @@
   
 }
 ::selection {
-  color: #000;
+  color: #0a0101;
   background: #fff;
 }
 nav{
@@ -178,7 +179,7 @@ label{
   line-height: 4;
 }
 .side{
-  max-inline-size: 300px;
+  min-inline-size: 300px;
   block-size: 550px;
   position: absolute;
   inset-inline-start: 68%;

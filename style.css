@@ -2,16 +2,21 @@
 
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  max-inline-size: 100%;
+  word-wrap: normal;
+  
 }
 ::selection {
-  color: #000;
+  color: #110707;
   background: #fff;
 }
 nav{
  
   background: black;
-  width:100%;
+  min-width:100%;
   padding: 20px 0;
   z-index: 12;
 }
@@ -49,18 +54,17 @@ ul li a:hover{
   color: black;
 }
 .img{
-  background: url(./homebg.jpg) no-repeat;
-min-width: 100%;
+  background: url(./homebg.jpg)  no-repeat;
+width: 100%;
 height: 100vh;
-background-size: cover;
+background-size: auto;
 background-position: center;
 position: relative;
 }
 .img::before{
-  content: "";
   position: absolute;
   height: 100%;
-  width: 100%;
+  min-width: 100%;
   background: rgb(0, 0, 0, 0.4);
 
 }
@@ -70,9 +74,11 @@ position: relative;
   top: 40%;
   left: 30%;
   transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 0 10px;
+  min-width: 100%;
+  padding: 10 10px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .center .title{
   color: #fff;
@@ -178,20 +184,20 @@ table .items ul li{
 }
 .content{
   color: rgb(235, 229, 229);
-  width: 50%;
+  max-width: 100%;
   position: absolute;
   top: 250px;
-  left: 300;
+  left: 300px;
   text-align: left;
 }
 .footer{
   width: 100%;
-  height: 20%;
+  height: 40%;
   background-color: #917c7c;
   
 }
 .container{
-  max-width: 1170px;
+  max-width: 100%;
   margin:auto;
 }
 .row{
