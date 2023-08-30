@@ -61,19 +61,20 @@ img{
     
 }
 .container{
-    
+    min-width: 100%;
   display: flex;
-    margin-block-start: 85px;
     text-align: center;
     inline-size: fit-content;
-
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
     
 }
 .box{
-
-    margin-block-start: 60px;
-    margin-block-end: 60px;
-    margin-inline-start: 68px;
+padding: 5px 10px;
+margin-left: 15px;
+margin-bottom: 20px;
+margin-top: 20px;
     border: #000;
     background-color: rgb(253, 255, 254);
     border-radius: 20px;
