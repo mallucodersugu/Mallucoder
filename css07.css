@@ -206,6 +206,11 @@ label{
  padding: 25px 25px;
   box-shadow:5px 5px 10px 5px rgba(0, 0, 0, 0.171);
 }
+.table ul li{
+  list-style-type: disc;
+  line-height: 2;
+  margin-inline-start: 50px;
+}
 .developer{
   display: flex;
   max-inline-size: 60%;

@@ -167,7 +167,7 @@ label{
 .content{
   display: flex;
   max-inline-size: 60%;
-  block-size:auto% ;
+  block-size:auto ;
   margin-block-start: 20px;
   margin-inline-start: 50px;
   padding: 25px 25px;
@@ -177,12 +177,11 @@ label{
 .content ul li{
   list-style-type: disc;
   line-height: 2;
-  margin-inline-start: 10px;
+  margin-inline-start: 50px;
 }
 .content ol li{
-  list-style-type: ;
   line-height: 2;
-  margin-inline-start: 20px;
+  margin-inline-start: 50px;
 }
 .content a{
   text-decoration: none;
@@ -197,6 +196,11 @@ label{
   padding: 25px 25px;
   box-shadow:5px 5px 10px 5px rgba(0, 0, 0, 0.171);
 }
+.easy1 ul li{
+  list-style-type: disc;
+  line-height: 2;
+  margin-inline-start: 10px;
+}
 .easy2{
   max-inline-size: 300px;
   block-size: 400px;
@@ -209,7 +213,7 @@ label{
 .developer{
   display: flex;
   max-inline-size: 60%;
-  block-size:auto% ;
+  block-size:auto ;
   margin-block-start: 20px;
   margin-inline-start: 50px;
   padding:25px 25px;
@@ -233,7 +237,7 @@ fa fa-check-circle{
 }
 form{
   max-inline-size: 60%;
-  block-size:auto% ;
+  block-size:auto ;
   margin-block-start: 20px;
   margin-inline-start: 50px;
   padding:25px 25px;

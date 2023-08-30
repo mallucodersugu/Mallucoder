@@ -126,18 +126,6 @@ ul{
   transition: all 0.5s ease;
 }
 
-/*responsive*/
-@media(max-inline-size: 767px){
-  .footer-col{
-    inline-size: 50%;
-    margin-block-end: 30px;
-}
-}
-@media(max-inline-size: 574px){
-  .footer-col{
-    inline-size: 100%;
-}
-}
 .container1{
     background-color: rgb(0, 0, 0);
     min-inline-size: 100%;
@@ -157,12 +145,12 @@ display: flex;
 
 }
 .by{
-    margin-block-start: 150px;
+    margin-block-start: 120px;
     margin-inline-start: 680px;
 }
 label{
     color: white;
-    margin-block-start: 150px;
+    margin-block-start: 120px;
     margin-inline-start: 20px;
 }
 .content{
@@ -200,7 +188,7 @@ label{
 }
 .easy2{
   max-inline-size: 300px;
-  block-size: 400px;
+  block-size: auto;
   margin-block-start: 570px;
  position: absolute;
  inset-inline-start: 68%;
