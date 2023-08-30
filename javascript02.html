@@ -1,0 +1,254 @@
+<html>
+    <head>
+        <title>
+          JS Tutorial 02
+        </title>
+        <link rel="stylesheet" href="./javascript02.css">
+        <link rel="icon" type="image/png" href=".dp.png"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+<nav>
+    <div class="menu">
+        <div class="logo">
+            <a href="#">Mallu Coder Sugu</a>
+        </div>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+            <li><a href="./tutorial.html">Tutorial</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="./updates.html">Updates</a></li>
+            <li><a href="./contacthome.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container1">
+    <img src="./CSS (online-video-cutter.com).gif" style="inline-size: 300px;">
+    <img class="by" src="./profile-pic (15).png" width="30px" height="30px"><br><label>By Syamraj R</label> 
+</div>
+
+<!---content-->
+<div class="content">
+    <div class="notes">
+        <h3>JavaScript Console Object and Methods</h3><br>
+        <hr>
+        <p>A Javascript console object is a global object that provides access to the browser's debugging console.
+        <br>
+          Most of us have used console.log() to print messages to the console. but there are many other methods that we can use to debug code easily.</p>
+        <br>
+        <h3>List of JavaScript Console Methods</h3>
+        <br>
+        <ol class="consolemethod" style="list-style-type:decimal;">
+          <li style="font-size: 1.2rem; font-weight: bold;">console.log(); </li>
+            <ul class="log" style="list-style-type:circle;">    
+             <li>Logs a message to the console.</li>
+             <li>This method can print strings, numbers, arrays, and objects.</li>
+           </ul>
+        
+        
+        
+           <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+            <div><span style="color:green;">console</span>.<span style="color:green;"> log</span>(<span style="color:orange;">"Hello World"</span>); </div>
+            </div>
+        
+        
+           <li style="font-size: 1.2rem; font-weight: bold;">console.info();</li>
+            <ul>
+              <li>It is used to display a message to the browser console.</li>
+                <li>This is very similar to console.log(); but it is used by developers for permanent messages to output to the console in their code.</li>
+            </ul>
+            <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+              <div><span style="color:green;">console</span>.<span style="color:green;"> info</span>(<span style="color:orange;">"This is an information from sugu"</span>); </div>
+              </div>
+              <li style="font-size: 1.2rem; font-weight: bold;">
+                console.warn();
+              </li>
+              <p>It's used to print warning messages. It'll print a colored(yellow) warning message, commonly used to indicate that something is not quite right.</p>
+              <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+                <div><span style="color:green;">console</span>.<span style="color:green;"> warn</span>(<span style="color:orange;">"Hello World"</span>); </div>
+                </div>
+                <li style="font-size: 1.2rem; font-weight: bold;">
+                  console.error();
+                </li>
+              <p>It's used to print error messages. It'll print a colored(red) error message, commonly used to indicate that something has gone wrong.</p>
+              <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+                <div><span style="color:green;">console</span>.<span style="color:green;"> error</span>(<span style="color:orange;">"Hello World something went wrong"</span>); </div>
+                </div>
+        <li style="font-size: 1.2rem; font-weight: bold;"> 
+          console.count();
+        </li>
+        <p>It's used to print the number of times it's called. It's useful to see how many times a function is called.</p>
+        
+        <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+          <div><span style="color: orange;">const</span><span style="color:green;"> exec </span><span class="color:orange;">=</span> ( <span style="color:green;"> label</span>) <span style="color:orange;">=></span><span style="color: green;">console</span>.<span style="color:green;">count</span>(<span style="color:green;">label</span>);</div>
+          <br>
+          <div><span style="color:green;">exec</span>(); <span style="color: gray;">// default: 1</span></div>
+         <div><span style="color:green;">exec</span>(); <span style="color: gray;">// default: 1</span></div>
+          </div>
+        <li style="font-size: 1.2rem; font-weight: bold;">console.assert();</li>
+        <p>It's used to print an error message if the assertion fails. It's useful to check if some condition is true or not.</p>
+        <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+          <div><span style="color:rgb(228, 13, 192);">let</span> a <span style="color:rgb(228, 13, 192);"> = </span><span style="color:orange;"> 20</span>); </div>
+          <div><span style="color:rgb(228, 13, 192);">let</span> b <span style="color:rgb(228, 13, 192);"> = </span><span style="color:orange;"> 3</span>); </div>
+          <div><span style="color:rgb(228, 13, 192);">console</span><span style="color:aqua;"> .assert</span> (b<span style="color:green;"> > </span>a);</div>
+        </div>
+        
+        <li style="font-size: 1.2rem; font-weight: bold;">Time, Timelog and TimeEnd</li>
+        <p>This method is used to start a timer to track the logs in the browser.<br>
+          console.time(); method is used to start the timer and console.timeEnd(); to end the timer or to stop the timer.<br>
+          And the console.timeLog(); is used to log the current value of the timer.</p>
+        <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+          <div>console. <span style="color:aqua;">time</span> ("<span style="color:rgb(228, 13, 192);"> answer time </span>"); <span style="color:grey;"> //other block of codes</span></div>
+          <div>console. <span style="color:aqua;">timeLog</span> ("<span style="color:rgb(228, 13, 192);"> answer time </span>"); <span style="color:grey;"> //other block of codes</span></div>
+          <div>console. <span style="color:aqua;">timeEnd</span> ("<span style="color:rgb(228, 13, 192);"> answer time </span>");</div>
+        </div>
+        
+        
+        
+        <li style="font-size: 1.2rem; font-weight: bold;">Group and GroupEnd</li>
+        <p>It's used to print a group of messages. It's useful to group messages together.
+        </p><div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+          <div><span style="color:green;">console.group</span>(<span style="color: orange;">"USER API"</span>)</div>
+          <div><span style="color:green;">console.log</span>(<span style="color: orange;">"Name: syam"</span>)</div>
+          <div><span style="color:green;">console.log</span>(<span style="color: orange;">"Age: 26"</span>)</div>
+          <div><span style="color:green;">console.groupEnd</span>()</div>
+          <div><span style="color:green;">console.group</span>(<span style="color: orange;">"Product API"</span>)</div>
+          <div><span style="color:green;">console.log</span>(<span style="color: orange;">"Name: Machine Gun"</span>)</div>
+          <div><span style="color:green;">console.log</span>(<span style="color: orange;">"Price: 150000"</span>)</div>
+          <div><span style="color:green;">console.groupEnd</span>()</div>
+        </div>
+        
+        <li style="font-size: 1.2rem; font-weight: bold;"> console.table();</li>
+        <p>It's used to print tabular data. It'll help to visualize the data in a table format.</p>
+        <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+        <div><span style="color:orange;">const </span><span style="color:green;"> user </span><span style="color:orangered;"> = </span> { </div>
+        <div>&nbsp; <span style="color: green;">name</span>: <span style="color: orange;">"John"</span>,</div>
+        <div>&nbsp; <span style="color: green;">age</span>:<span style="color: blueviolet;">30</span>,</div>
+        <div>};</div><br>
+        <br>
+        <div><span style="color: green;">console.table</span>(<span style="color: green;">user</span>);</div>
+        </div>
+        
+        <li style="font-size: 1.2rem; font-weight: bold;"> console.clear();</li>
+        <p>This console method is used to clear the messages from the console.<br>
+          This method will clear all the previous logs.</p>
+        <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+        <div>console.<span style="color: aqua;">clear</span>();</div>
+        </div>
+        
+        <li style="font-size: 1.2rem; font-weight: bold;"> console.debug();</li>
+        <p>This method outputs a message to the console with the log-level debug.</p>
+        <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+        <div>console.<span style="color: aqua;">debug</span>('<span style="color: orange;">This is bug</span>');</div>
+        </div>
+            </ol> <br>
+<!---download-->
+<h3>Introduction to CSS Part-2 PDF <a href="./Display Property in CSS.zip" download>Click here to download</a></a></h3>
+
+</div>
+<!---side-->
+<div class="side">
+
+  <div class="easy">
+    <div class="easy1"><h4>Easy Pickup <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+        <hr>
+       <ul>
+        <li>1. CSS More Samples</li>
+        <li>2. CSS Malayalam Classes</li>
+        <li>3. CSS Malayalam Notes</li>
+        
+       </ul>
+        </div>
+
+</div></div>
+<br>
+<!---easy2-->
+<div class="easy2">
+  <div class="easy3"><h4>Ads<i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+      <hr>
+     
+      </div>
+
+</div>
+
+</div>
+</div>
+<div class="developer">
+<div class="profilepic">
+  <img src="./profile-pic (15).png">
+</div>
+<div class="bio">
+  <h4> SYAMRAJ R 
+    <i class='fa fa-check-circle' style='color: green'></i></h4>
+  <p>Founder and Developer of Mallu Coder Sugu.We provide the best Computer or Programming Related Content With Notes PDF, Amazing Designs, Easy to Readable for Learners.</p>
+</div>
+</div>
+<form>
+  <textarea id="comment" name="comment" rows="4" cols="150"></textarea><br>
+  <br><br><br>
+  <input class="submit" type="submit" value="Post Comment"><br>
+
+  <!--share-->
+  <button class="share">Share<i class="fa fa-share-alt-square" style="font-size:24px"></i></button>
+  <button class="share01"><i class="fa fa-telegram" aria-hidden="true" style="font-size: 24px; color: blue;"></i></button>
+  <button class="share01"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 24px; color: rgb(37, 145, 10);"></i></button>
+  <button class="share01"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 24px; color: rgb(214, 77, 67);"></i></button>
+  <button class="share01"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 24px; color: rgb(199, 4, 4);"></i></button>
+  <button class="share01"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 24px; color: blue;"></i></button>
+  <button class="share01"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 24px; color: rgb(1, 1, 15);"></i></button>
+ 
+
+</form>
+<div class="controls">
+    <a href="./javascript01.html"><button class="pre"><i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;Previous</button></a>
+    <a href="./csoon.html"><button class="next">Next &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+    </div>
+<div class="scrolling-text-container">
+  <div class="scrolling-text">
+    <marquee direction="left" behavior="scroll" scrollamount="10">Welcome to our Web Designing Studio! Stay and learn from here... Follow our social media for new updates</p>
+    </marquee></div>
+</div>
+
+<!---footer section-->
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+              <div class="footer-col">
+                <h4>Mallu Coder Sugu</h4>
+                <ul>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">our services</a></li>
+                 
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Ads</h4>
+                <ul>
+                  <li><a href="#">Ads 01</a></li>
+                  <li><a href="#">Ads 02</a></li>
+                  
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Our Referral Shopping Page</h4>
+                <ul>
+                  <li><a href="#">Latest Offers</a></li>
+                  <li><a href="#">Offer01</a></li>
+                  <li><a href="#">Offer02</a></li>
+                
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 
+                  <a href="https://instagram.com/mallucoder_sugu?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+                  <a href="https://youtube.com/@MallucoderSugu"><i class="fab fa-youtube"></i></a> 
+                  <a href="https://t.me/mallucoder_sugu"><i class="fab fa-telegram"></i></a>
+    </div>
+    </div></div></div></div></footer>
+    </body>
+    </html>

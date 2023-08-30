@@ -1,0 +1,218 @@
+<html>
+    <head>
+        <title>
+          CSS Tutorial 02
+        </title>
+        <link rel="stylesheet" href="./css02.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+<nav>
+    <div class="menu">
+        <div class="logo">
+            <a href="#">Mallu Coder Sugu</a>
+        </div>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+            <li><a href="./tutorial.html">Tutorial</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="./updates.html">Updates</a></li>
+            <li><a href="./contacthome.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container1">
+    <img src="./CSS (online-video-cutter.com).gif" style="inline-size: 300px;">
+    <img class="by" src="./profile-pic (15).png" width="30px" height="30px"><br><label>By Syamraj R</label> 
+</div>
+
+<!---content-->
+<div class="content">
+    <div class="notes">
+        <h3>Types of CSS</h3>
+<br>
+<ul>
+  <li>There are mainly three types of CSS, Inline CSS, Internal CSS and External CSS.</li>
+  <li>Inline CSS written in the opening tag of the HTML element by using style attribute and we can write our CSS for every element of HTML.
+  </li>
+  <li>Internal CSS is written in the head tag of HTML by using style tag. This stylesheet is included in the HTML file.
+  </li>
+  <li>External CSS is written in the external file with .css extension. And this is almost the same as Internal CSS but this is a different CSS file.
+  </li>
+</ol>
+<br>
+<h4>Inline CSS:</h4>
+<p> As we learn about  Inline CSS written in the opening tag in HTML element by using style attribute. But it is difficult to write CSS for every element individually. In Inline CSS the CSS style is written within double quotes " " like this style=" ". Let's see with an example:</p>
+<br>
+<p style="color:red;">index.html</p>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;"><div>
+  &lt;!<span style="color: #ff0077;">DOCTYPE</span> <span style="color: #00fff2;">html</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">html</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">head</span>&gt;</div>
+  <div>&nbsp; &nbsp; &lt;<span style="color: #ff0077;">title</span>&gt;Inline CSS&lt;/<span style="color: #ff0077;">title</span>&gt;</div>
+  <div>&lt;/<span style="color: #ff0077;">head</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">body</span>&gt;</div>
+  <div>&nbsp; &nbsp;&lt;<span style="color:#ff0077;">p </span><span style="color:00fff2;">style</span>= "<span style="color:yellow;">color: red;</span>"&gt;</span> Mallu Coder Sugu&lt;/<span style="color:#ff0077;">p</span>&gt;</div>
+  <div>&lt;/<span style="color: #ff0077;">body</span>&gt;</div>
+  <div>&lt;/<span style="color: #ff0077;">html</span>&gt;</div>
+  </div>
+<br>
+<h4>Internal CSS</h4> 
+<br>
+<p>Internal CSS is written in the head tag of an HTML element by using style tag. This saves a lot of time because in this we can target multiple elements and can apply the same style to them. </p>     
+<br>
+<p style="color:red;">index.html</p>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;"><div>
+  &lt;!<span style="color: #ff0077;">DOCTYPE</span> <span style="color: #00fff2;">html</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">html</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">head</span>&gt;</div>
+  <div>&nbsp; &nbsp; &lt;<span style="color: #ff0077;">title</span>&gt;Internal CSS&lt;/<span style="color: #ff0077;">title</span>&gt;</div>
+ <div>&lt;<span style="color: #ff0077;">style</span>&gt;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color:yellow;">p</span> { </div>
+  <br>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  color: <span style="color:orange;">red</span>;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div><br>
+<div>&lt;/<span style="color: #ff0077;">style</span>&gt;</div>
+
+  <div>&lt;/<span style="color: #ff0077;">head</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">body</span>&gt;</div>
+  <div>&nbsp; &nbsp;&lt;<span style="color:#ff0077;">p</span>&gt; Mallu Coder Sugu&lt;/<span style="color:#ff0077;">p</span>&gt;</div>
+  <div>&lt;/<span style="color: #ff0077;">body</span>&gt;</div>
+  <div>&lt;/<span style="color: #ff0077;">html</span>&gt;</div>
+  </div>
+<br>
+<h4>External CSS</h4>
+<p>External CSS is written in the external file with a <b>.css</b> extension. And this is almost the same as Internal CSS but this is a different CSS file. And this will be added using < link> tag. This style can be used on multiple HTML pages by linking them with<b>< link ></b> tag.</p>
+<br>
+<p style="color:red;">index.html</p>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;"><div>
+  &lt;!<span style="color: #ff0077;">DOCTYPE</span> <span style="color: #00fff2;">html</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">html</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">head</span>&gt;</div>
+  <div>&nbsp; &nbsp; &lt;<span style="color: #ff0077;">title</span>&gt;External CSS&lt;/<span style="color: #ff0077;">title</span>&gt;</div>
+  
+  <div>&lt;<span style="color: #ff0077;">link</span><span style="color:#00fff2;">&nbsp; rel</span>=" <span style="color:yellow;">stylesheet</span>" <span style="color:#00fff2;">href</span>=" <span style="color:yellow;">style.css</span>" &gt;</div>
+
+  <div>&lt;/<span style="color: #ff0077;">head</span>&gt;</div>
+  <div>&lt;<span style="color: #ff0077;">body</span>&gt;</div>
+  <div>&nbsp; &nbsp;&lt;<span style="color:#ff0077;">p </span>&gt; Mallu Coder Sugu&lt;/<span style="color:#ff0077;">p</span>&gt;</div>
+  <div>&lt;/<span style="color: #ff0077;">body</span>&gt;</div>
+  <div>&lt;/<span style="color: #ff0077;">html</span>&gt;</div>
+  </div>
+<br>
+    <p style="color:red;">style.css</p>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;"><div>
+  <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color:yellow;">p</span> { </div>
+  <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  color: <span style="color:orange;">red</span>;</div>
+  <div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</div></div></div>
+  <br>
+<!---download-->
+<h3>Introduction to CSS Part-2 PDF <a href="/Sample Programmes/Display Property in CSS/Display Property in CSS.zip" download>Click here to download</a></a></h3>
+
+</div>
+<!---side-->
+<div class="side">
+
+  <div class="easy">
+    <div class="easy1"><h4>Easy Pickup <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+        <hr>
+       <ul>
+        <li>1. CSS More Samples</li>
+        <li>2. CSS Malayalam Classes</li>
+        <li>3. CSS Malayalam Notes</li>
+        
+       </ul>
+        </div>
+
+</div></div>
+<br>
+<!---easy2-->
+<div class="easy2">
+  <div class="easy3"><h4>Ads<i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+      <hr>
+     
+      </div>
+
+</div>
+
+</div>
+</div>
+<div class="developer">
+<div class="profilepic">
+  <img src="./profile-pic (15).png">
+</div>
+<div class="bio">
+  <h4> SYAMRAJ R 
+    <i class='fa fa-check-circle' style='color: green'></i></h4>
+  <p>Founder and Developer of Mallu Coder Sugu.We provide the best Computer or Programming Related Content With Notes PDF, Amazing Designs, Easy to Readable for Learners.</p>
+</div>
+</div>
+<form>
+  <textarea id="comment" name="comment" rows="4" cols="150"></textarea><br>
+  <br><br><br>
+  <input class="submit" type="submit" value="Post Comment"><br>
+
+  <!--share-->
+  <button class="share">Share<i class="fa fa-share-alt-square" style="font-size:24px"></i></button>
+  <button class="share01"><i class="fa fa-telegram" aria-hidden="true" style="font-size: 24px; color: blue;"></i></button>
+  <button class="share01"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 24px; color: rgb(37, 145, 10);"></i></button>
+  <button class="share01"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 24px; color: rgb(214, 77, 67);"></i></button>
+  <button class="share01"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 24px; color: rgb(199, 4, 4);"></i></button>
+  <button class="share01"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 24px; color: blue;"></i></button>
+  <button class="share01"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 24px; color: rgb(1, 1, 15);"></i></button>
+ 
+
+</form>
+<div class="controls">
+    <a href="./css01.html"><button class="pre"><i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;Previous</button></a>
+    <a href="./css03.html"><button class="next">Next &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+    </div>
+<div class="scrolling-text-container">
+  <div class="scrolling-text">
+    <marquee direction="left" behavior="scroll" scrollamount="10">Welcome to our Web Designing Studio! Stay and learn from here... Follow our social media for new updates</p>
+    </marquee></div>
+</div>
+
+<!---footer section-->
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+              <div class="footer-col">
+                <h4>Mallu Coder Sugu</h4>
+                <ul>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">our services</a></li>
+                 
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Ads</h4>
+                <ul>
+                  <li><a href="#">Ads 01</a></li>
+                  <li><a href="#">Ads 02</a></li>
+                  
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Our Referral Shopping Page</h4>
+                <ul>
+                  <li><a href="#">Latest Offers</a></li>
+                  <li><a href="#">Offer01</a></li>
+                  <li><a href="#">Offer02</a></li>
+                
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 
+                  <a href="https://instagram.com/mallucoder_sugu?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+                  <a href="https://youtube.com/@MallucoderSugu"><i class="fab fa-youtube"></i></a> 
+                  <a href="https://t.me/mallucoder_sugu"><i class="fab fa-telegram"></i></a>
+    </div>
+    </div></div></div></div></footer>
+    </body>
+    </html>

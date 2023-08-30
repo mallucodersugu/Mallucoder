@@ -1,0 +1,30 @@
+Display Property in CSS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Display Property in CSS </title>
+    <style>
+        .container {
+            display: flex;
+            border: 1px solid orangered;
+        }
+
+        .container-item {
+            border: 1px solid blue;
+            padding: 1rem;
+            display: inline-block;
+            width: 100%;
+            margin: 1rem;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="container-item"> This is first continer item </div>
+        <div class="container-item"> This is second container item </div>
+        <div class="container-item"> This is third container item </div>
+    </div>
+</body>
+</html>

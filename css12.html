@@ -1,0 +1,299 @@
+<html>
+    <head>
+        <title>
+          CSS Tutorial 12
+        </title>
+        <link rel="stylesheet" href="./css12.html">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+<nav>
+    <div class="menu">
+        <div class="logo">
+            <a href="#">Mallu Coder Sugu</a>
+        </div>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+            <li><a href="./tutorial.html">Tutorial</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="./updates.html">Updates</a></li>
+            <li><a href="./contacthome.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container1">
+    <img src="./CSS (online-video-cutter.com).gif" style="inline-size: 300px;">
+    <img class="by" src="./profile-pic (15).png" width="30px" height="30px"><br><label>By Syamraj R</label> 
+</div>
+
+<!---content-->
+<div class="content">
+    <div class="notes">
+        <h2>CSS display Property</h2>
+<br>
+<p>The display property specifies the display behavior (the type of rendering box) of an element.</p>>
+<ul>
+  <li>The display property sets an element's inner and outer display types.
+   </li>
+  <li> The Display property defines how the components will be placed on the web page.</li>
+  </ul>
+  <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div> &lt;!<span style="color: #ff0077;">DOCTYPE</span> <span style="color: #00fff2;">html</span>&gt;</div>
+     <div>&lt;<span style="color: #ff0077;">html</span>&gt;</div>
+     <div>&lt;<span style="color: #ff0077;">head</span>&gt;</div>
+     <div>&nbsp; &nbsp; &lt;<span style="color: #ff0077;">title</span>&gt; Links&lt;/<span style="color: #ff0077;">title</span>&gt;</div>
+     
+     <div>&lt;<span style="color: #ff0077;">link</span><span style="color:#00fff2;">&nbsp; rel</span>=" <span style="color:yellow;">shortcut icon</span>" <span style="color:#00fff2;">href</span>=" <span style="color:yellow;">favicon.png</span>" &gt;</div>
+     <div>&lt;<span style="color: #ff0077;">link</span><span style="color:#00fff2;">&nbsp; rel</span>=" <span style="color:yellow;">stylesheet</span>" <span style="color:#00fff2;">href</span>=" <span style="color:yellow;">style.css</span>" &gt;</div>
+   
+     <div>&lt;/<span style="color: #ff0077;">head</span>&gt;</div>
+     <div>&lt;<span style="color: #ff0077;">body</span>&gt;</div>
+<div>&lt;<span style="color: #ff0077;">div</span>&gt;</div>
+
+<div>&lt;<span style="color:#ff0077;">p</span>&gt;</div>
+<div>&nbsp; Hi..its me < span class="">Syamraj R< /span></div>
+<div>&lt;/<span style="color:ff0077;">p</span>&gt;</div>
+<div>&lt;/<span style="color:ff0077;">div</span>&gt;</div>
+          <div>&lt;/<span style="color: #ff0077;">body</span>&gt;</div>
+     <div>&lt;/<span style="color: #ff0077;">html</span>&gt;</div>
+     </div>
+     we will use different classes in the class attribute in span tag.
+<br>
+  <br>
+  <br>
+  <h3>Different display values with output</h3>
+<ul>
+    <li><b>inline </b>- It is used to display an element as an inline element.</li>
+    <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+        <div>.<span style="color:yellow;">inline</span> { </div>
+        <div>display: <span style="color:rgb(255, 0, 0);">inline</span>;</div>
+      
+      <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+        <div>}</div>
+      </div>
+
+
+      <br>
+      <li><b>block </b>- It is used to display an element as a block element.</li>
+      <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+        <div>.<span style="color:yellow;">inline</span> { </div>
+        <div>display: <span style="color:rgb(255, 0, 0);">block</span>;</div>
+      
+      <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+        <div>}</div>
+      </div><br>
+<li><b>flex </b>- It is used to display an element as a block-level flex container.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">inline</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">flex</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li><b>grid</b>- It is used to display an element as a block-level grid container.</li>
+
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">grid</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">grid</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li><b>inline-block</b> - It is used to display an element as an inline-level block container.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">inline-block</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">inline-block</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li> <b>inline-flex</b>- It is used to display an element as an inline-level flex container.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">inline-flex</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">inline-flex</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li><b>inline-grid</b> - It is used to display an element as an inline-level grid container.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">inline-grid</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">inline-grid</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li><b>block-grid</b>- It is used to display an element as a block-level grid container.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">block-grid</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">block-grid</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li><b>none</b> - It is used to remove the element.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">none</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">none</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li><b>table</b> - Let the element behave like a < table> element.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">table</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">table</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li><b>initial</b> - It is used to set the default value.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">initial</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">initial</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li> <b>inherit</b> - It is used to inherit the property from its parent's elements.</li>
+<div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+    <div>.<span style="color:yellow;">inherit</span> { </div>
+    <div>display: <span style="color:rgb(255, 0, 0);">inherit</span>;</div>
+  
+  <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+    <div>}</div>
+  </div><br>
+<li><b>table-cell</b> - It is used to set the behavior as <td> for all elements</li>
+    <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+        <div>.<span style="color:yellow;">table-cell</span> { </div>
+        <div>display: <span style="color:rgb(255, 0, 0);">table-cell</span>;</div>
+      
+      <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+        <div>}</div>
+      </div><br>
+      <li><b>table-column</b> - It is used to set the behavior as <col> for all elements.</li>
+      <div style="background-color: #00002c; border-radius: 0.5rem; color: white; font-family: Consolas, &quot;Courier New&quot;, monospace; font-size: 0.9rem; line-height: 9px; overflow: auto; padding: 0.4rem; white-space: pre;">
+        <div>.<span style="color:yellow;">table-column</span> { </div>
+        <div>display: <span style="color:rgb(255, 0, 0);">table-column</span>;</div>
+      
+      <div>border:<span style="color:rgb(255, 0, 0);"> 1px solid red</span></div>
+        <div>}</div>
+      </div><br></ul>
+<h3>Sample Programme Source code:</h3><br>
+<div class="download">
+Source code File: <a href="./Display Property in CSS.txt" download>Download &nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
+<br>Output File:<a href="./Display Property in CSS.html" download>Download &nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
+</div>
+<br>
+    
+        
+  <br>
+<!---download-->
+<h3>Introduction to CSS Part-2 PDF <a href="./Display Property in CSS.zip" download>Click here to download</a></a></h3>
+
+</div>
+<!---side-->
+<div class="side">
+
+  <div class="easy">
+    <div class="easy1"><h4>Easy Pickup <i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+        <hr>
+       <ul>
+        <li>1. CSS More Samples</li>
+        <li>2. CSS Malayalam Classes</li>
+        <li>3. CSS Malayalam Notes</li>
+        
+       </ul>
+        </div>
+
+</div></div>
+<br>
+<!---easy2-->
+<div class="easy2">
+  <div class="easy3"><h4>Ads<i class="fa fa-check-circle" aria-hidden="true"></i></h4>
+      <hr>
+     
+      </div>
+
+</div>
+
+</div>
+</div>
+<div class="developer">
+<div class="profilepic">
+  <img src="./profile-pic (15).png">
+</div>
+<div class="bio">
+  <h4> SYAMRAJ R 
+    <i class='fa fa-check-circle' style='color: green'></i></h4>
+  <p>Founder and Developer of Mallu Coder Sugu.We provide the best Computer or Programming Related Content With Notes PDF, Amazing Designs, Easy to Readable for Learners.</p>
+</div>
+</div>
+<form>
+  <textarea id="comment" name="comment" rows="4" cols="150"></textarea><br>
+  <br><br><br>
+  <input class="submit" type="submit" value="Post Comment"><br>
+
+  <!--share-->
+  <button class="share">Share<i class="fa fa-share-alt-square" style="font-size:24px"></i></button>
+  <button class="share01"><i class="fa fa-telegram" aria-hidden="true" style="font-size: 24px; color: blue;"></i></button>
+  <button class="share01"><i class="fa fa-whatsapp" aria-hidden="true" style="font-size: 24px; color: rgb(37, 145, 10);"></i></button>
+  <button class="share01"><i class="fa fa-instagram" aria-hidden="true" style="font-size: 24px; color: rgb(214, 77, 67);"></i></button>
+  <button class="share01"><i class="fa fa-youtube" aria-hidden="true" style="font-size: 24px; color: rgb(199, 4, 4);"></i></button>
+  <button class="share01"><i class="fa fa-facebook" aria-hidden="true" style="font-size: 24px; color: blue;"></i></button>
+  <button class="share01"><i class="fa fa-envelope" aria-hidden="true" style="font-size: 24px; color: rgb(1, 1, 15);"></i></button>
+ 
+
+</form>
+<div class="controls">
+    <a href="./css11.html"><button class="pre"><i class="fa fa-arrow-left" aria-hidden="true"></i> &nbsp;Previous</button></a>
+    </div>
+<div class="scrolling-text-container">
+  <div class="scrolling-text">
+    <marquee direction="left" behavior="scroll" scrollamount="10">Welcome to our Web Designing Studio! Stay and learn from here... Follow our social media for new updates</p>
+    </marquee></div>
+</div>
+
+<!---footer section-->
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+              <div class="footer-col">
+                <h4>Mallu Coder Sugu</h4>
+                <ul>
+                  <li><a href="#">about us</a></li>
+                  <li><a href="#">our services</a></li>
+                 
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Ads</h4>
+                <ul>
+                  <li><a href="#">Ads 01</a></li>
+                  <li><a href="#">Ads 02</a></li>
+                  
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>Our Referral Shopping Page</h4>
+                <ul>
+                  <li><a href="#">Latest Offers</a></li>
+                  <li><a href="#">Offer01</a></li>
+                  <li><a href="#">Offer02</a></li>
+                
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                 
+                  <a href="https://instagram.com/mallucoder_sugu?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+                  <a href="https://youtube.com/@MallucoderSugu"><i class="fab fa-youtube"></i></a> 
+                  <a href="https://t.me/mallucoder_sugu"><i class="fab fa-telegram"></i></a>
+    </div>
+    </div></div></div></div></footer>
+    </body>
+    </html>
