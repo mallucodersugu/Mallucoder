@@ -198,7 +198,7 @@ label{
 }
 .easy2{
   max-inline-size: 300px;
-  block-size: 400px;
+  block-size: auto;
   margin-block-start: 570px;
  position: absolute;
  inset-inline-start: 68%;

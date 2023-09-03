@@ -167,7 +167,7 @@ label{
 .content{
   display: flex;
   max-inline-size: 60%;
-  block-size:auto% ;
+  block-size:auto ;
   margin-block-start: 20px;
   margin-inline-start: 50px;
   padding: 25px 25px;
@@ -180,7 +180,7 @@ label{
   margin-inline-start: 10px;
 }
 .content ol li{
-  list-style-type: ;
+ 
   line-height: 2;
   margin-inline-start: 20px;
 }
@@ -199,7 +199,7 @@ label{
 }
 .easy2{
   max-inline-size: 300px;
-  block-size: 400px;
+  block-size: auto;
   margin-block-start: 570px;
  position: absolute;
  inset-inline-start: 68%;
